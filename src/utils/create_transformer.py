@@ -2,7 +2,8 @@
 """Create a torchvision image transformer."""
 from __future__ import print_function
 import numbers
-from collections import Sequence
+#from collections import Sequence
+from collections.abc import Sequence
 from PIL import Image
 
 from torchvision import transforms
